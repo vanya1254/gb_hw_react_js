@@ -1,0 +1,19 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+  padding-top: 60px;
+
+  &__addComment {
+    &_input {
+      width: 250px;
+      padding: 6px;
+    }
+
+    &_btn {
+      padding: 6px;
+      cursor: pointer;
+    }
+  }
+}

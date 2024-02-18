@@ -1,0 +1,20 @@
+.root {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: cadetblue;
+
+  &_text {
+    width: 200px;
+    color: white;
+    font-weight: 600;
+    text-align: start;
+  }
+  &_remove {
+    text-align: center;
+    padding: 2px 4px;
+    cursor: pointer;
+    border: 1px solid #bebebe;
+    border-radius: 10px;
+  }
+}
