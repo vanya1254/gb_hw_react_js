@@ -1,7 +1,14 @@
+import { AddProduct, ProductsList } from "./components";
+
 import "./App.css";
 
-function App() {
-  return <div className="App"></div>;
-}
+const App = () => {
+  return (
+    <div className="App">
+      <AddProduct />
+      <ProductsList />
+    </div>
+  );
+};
 
 export default App;
